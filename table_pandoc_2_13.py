@@ -27,7 +27,7 @@ def data(source):
     tmp = []
     for column in row:
       if column != []:
-	      tmp.extend(column[4][0]['c'])
+        tmp.extend(column[4][0]['c'])
       tmp.append(RawInline('latex', r' & '))
     value.extend(tmp)
     value[-1] = RawInline('latex', r' \\' '\n')
