@@ -1,3 +1,7 @@
+%
+% jjap3-pdftex.cls
+% Modified version for pdftex by Naoya Yamaguchi
+%
 %========================== jjap3.cls ============================
 %
 %-for Japanese Journal of Applied Physics %
@@ -24,6 +28,7 @@
 
 \RequirePackage{amsmath}[1997/03/20]
 \RequirePackage{amssymb}
+%\RequirePackage[dvipdfmx]{graphicx}
 \RequirePackage{graphicx}
 \RequirePackage{color}
 \RequirePackage{url}
